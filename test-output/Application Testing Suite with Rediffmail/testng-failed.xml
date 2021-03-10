@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Application Testing Suite with Rediffmail]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Free Rediffmail Lookup Test(failed)">
+    <parameter name="password1" value="Test@5678"/>
+    <parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+    <parameter name="username" value="neha.bharti58@rediffmail.com"/>
+    <classes>
+      <class name="com.test.ParameterTest">
+        <methods>
+          <include name="RediffmailLogin" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.test.ParameterTest -->
+    </classes>
+  </test> <!-- Free Rediffmail Lookup Test(failed) -->
+</suite> <!-- Failed suite [Application Testing Suite with Rediffmail] -->

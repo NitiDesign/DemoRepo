@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Failed test cases Suite">
+
+	<listeners>
+	<listener class-name = "RetryTransform.RetryTransformNew"/>
+	</listeners>
+
+  	<test name="Retry all failed Tests">
+  	
+		    <classes>
+		      <class name="AgainRetryTests.RetryTestsTransform"/>
+
+		    </classes>
+  </test> 
+</suite> 

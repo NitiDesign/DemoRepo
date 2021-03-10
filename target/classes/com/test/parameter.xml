@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Application Testing Suite with Rediffmail nnn">
+
+  	<test name="Free Rediffmail Lookup Test nnn">
+  	
+  			<parameter name="url" value="https://mail.rediff.com/cgi-bin/login.cgi"/>
+  			<parameter name="username" value="neha.bharti58@rediffmail.com"/>
+  			<parameter name="password1" value="Test@5678"/>
+  			
+		    <classes>
+		      <class name="com.test.ParameterTest"/>
+		    </classes>
+  </test> 
+</suite> 

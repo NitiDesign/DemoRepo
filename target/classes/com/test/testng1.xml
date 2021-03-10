@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Application Testing Suite">
+
+  	<test name="Free Google Lookup Test">
+  	
+		    <classes>
+		      <class name="com.test.GoogleTestNg"/>
+		      <class name="com.test.basicstestng"/>
+		      <class name="com.test.InvocationCount"/>
+		    </classes>
+  </test> 
+</suite> 
