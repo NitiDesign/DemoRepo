@@ -15,6 +15,8 @@ public class basicstestng {
 	public void LaunchBrowser()
 	{		
 		System.out.println("BeforeSuite------------>>");
+		System.out.println("BeforeSuite------------>>");
+		System.out.println("BeforeSuite------------>>");
 	}
 	
 	@BeforeTest
